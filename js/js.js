@@ -129,7 +129,7 @@ $('.Select-box-2 li').click(function () {
 		return "";
 	}
 	if (_tihs == 'baidu_s') {
-		_tihs = 'https://www.google.com/search';
+		_tihs = 'https://www.baidu.com/s';
 		_name = 'wd';
 	} else if (_tihs == 'google_s') {
 		_tihs = 'https://www.google.com/search';
@@ -141,7 +141,7 @@ $('.Select-box-2 li').click(function () {
 		_tihs = 'https://www.dogedoge.com/results';
 		_name = 'q';
 	} else {
-		_tihs = 'https://www.baidu.com/s';
+		_tihs = 'https://www.google.com/search';
 		_name = 'wd';
 	}
 	$('.baidu form').attr('action', _tihs);
